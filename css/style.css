@@ -1,0 +1,33 @@
+/** Fonts **/
+BODY {
+	color: #545454;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+A:Link, A:Visited {
+	color: #0072BC;
+}
+A:Active, A:Hover {
+	color: #F26522;
+}
+
+H1, H2, H3, H4, H5, H6 {
+	color: #000000;
+	margin-top: 0px;
+}
+H2 {
+	font-size: 16px;
+}
+STRONG {
+	color: #000000;
+}
+#pageWrapper #layoutMain #navMenu {
+	color: #000000;
+}
+
+
+/** List Styles **/
+LI.leaf {
+	list-style-image: url('../images/bullet.png');
+}

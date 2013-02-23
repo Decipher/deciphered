@@ -1,0 +1,62 @@
+/** Logo **/
+#pageWrapper #layoutHeader .logo IMG {
+	behavior: url('/sites/all/themes/deciphered/pngfix/iepngfix.htc');
+	width: 170px;
+	height: 28px;
+}
+
+
+/** Nav Menu **/
+#pageWrapper #layoutMain #navMenu UL.links LI {
+	background-image: url('../images/ieFix/headerNavBGOff.png');
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	behavior: url('/sites/all/themes/deciphered/pngfix/iepngfix.htc');
+}
+#pageWrapper #layoutMain #navMenu UL.links LI.active {
+	background-image: url('../images/ieFix/headerNavBGOn.png');
+	behavior: url('/sites/all/themes/deciphered/pngfix/iepngfix.htc');
+}
+
+
+/** Corners **/
+.corners .corner {
+	display: none !important;
+	background-image: none;
+	background-position: 0px 0px;
+	behavior: url('/sites/all/themes/deciphered/pngfix/iepngfix.htc');
+}
+
+/* Grey */
+.corners .corner.grey.bottom.left {
+	background-image: url('../images/ieFix/cornerGreyBL.png');
+}
+.corners .corner.grey.bottom.right {
+	background-image: url('../images/ieFix/cornerGreyBR.png');
+}
+.corners .corner.grey.top.left {
+	background-image: url('../images/ieFix/cornerGreyTL.png');
+}
+.corners .corner.grey.top.right {
+	background-image: url('../images/ieFix/cornerGreyTR.png');
+}
+
+/* White */
+.corners .corner.white.bottom.left {
+	background-image: url('../images/ieFix/cornerWhiteBL.png');
+}
+.corners .corner.white.bottom.right {
+	background-image: url('../images/ieFix/cornerWhiteBR.png');
+}
+.corners .corner.white.top.left {
+	background-image: url('../images/ieFix/cornerWhiteTL.png');
+}
+.corners .corner.white.top.right {
+	background-image: url('../images/ieFix/cornerWhiteTR.png');
+}
+
+
+/** Bullet **/
+LI.leaf {
+	list-style-image: url('../images/ieFix/bullet.gif') !important;
+}

@@ -1,0 +1,10 @@
+name = Deciphered
+description = Theme for Deciphered.NET
+core = 6.x
+engine = phptemplate
+
+regions[content] = Content
+regions[content_bottom_left] = Content Bottom - Left
+regions[content_bottom_middle] = Content Bottom - Middle
+regions[content_bottom_right] = Content Bottom - Right
+regions[sidebar] = Sidebar

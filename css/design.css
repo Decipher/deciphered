@@ -1,0 +1,447 @@
+BODY {
+  background: #252525 url('../images/headerBackground.png') repeat-x;
+  margin: 0px;
+}
+
+
+#pageWrapper {
+  margin: 0px auto;
+  padding: 0px 0px 10px;
+  width: 955px;
+}
+#pageWrapper #layoutHeader {
+  height: 57px;
+  margin-bottom: 20px;
+}
+#pageWrapper #layoutMain {
+  background: #FFFFFF;
+}
+#pageWrapper #layoutMain #navMenu {
+  background: #252525;
+  height: 19px;
+}
+#pageWrapper #layoutMain #layoutContent {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+#pageWrapper #layoutMain #layoutContent #layoutContentMain {
+  border-right: 1px solid #BFBFBF;
+  float: left;
+  margin: 20px 10px 20px 0px;
+  padding: 0px 0px 0px 20px;
+  width: 686px;
+  position: relative;
+}
+#pageWrapper #layoutMain #layoutContent #layoutContentMain #regionContentBottomLeft,
+#pageWrapper #layoutMain #layoutContent #layoutContentMain #regionContentBottomMiddle,
+#pageWrapper #layoutMain #layoutContent #layoutContentMain #regionContentBottomRight {
+  border-right: 1px solid #BFBFBF;
+  float: left;
+  padding: 0px 10px;
+  height: 174px;
+  width: 208px;
+}
+#pageWrapper #layoutMain #layoutContent #layoutContentMain #regionContentBottomRight {
+  border-right-width: 0px;
+}
+#pageWrapper #layoutMain #layoutContent #layoutContentMain #regionMain {
+  padding: 10px;
+}
+#pageWrapper #layoutMain #layoutContent #regionsSidebar {
+  float: left;
+  margin-top: 20px;
+  position: relative;
+  width: 218px;
+}
+#pageWrapper #layoutMain #layoutContent #layoutCopyright {
+  clear: both;
+}
+
+
+#pageWrapper #layoutHeader .logo {
+  padding: 19px 0px 0px 20px;
+}
+
+
+/** Navigation Menu **/
+#pageWrapper #layoutMain #navMenu UL.links {
+  margin-left: 20px;
+  padding: 0px;
+}
+#pageWrapper #layoutMain #navMenu UL.links LI {
+  background-image: url('../images/spriteMap0.png');
+  background-repeat: no-repeat;
+  background-position: 0px -19px;
+  float: left;
+  height: 15px;
+  margin: 0px 2px 0px 0px;
+  padding: 4px 0px 0px;
+  text-align: center;
+}
+#pageWrapper #layoutMain #navMenu UL.links LI.active {
+  background-color: #FFFFFF !important;
+  background-position: 0px 0px;
+}
+#pageWrapper #layoutMain #navMenu UL.links LI.menu-14 {
+  background-color: #FFFFFF;
+}
+#pageWrapper #layoutMain #navMenu UL.links LI.menu-15 {
+  background-color: #C4C4C4;
+}
+#pageWrapper #layoutMain #navMenu UL.links LI.menu-18 {
+  background-color: #E2CDB6;
+}
+#pageWrapper #layoutMain #navMenu UL.links LI.menu-1-4-2 {
+  background-color: #E1EFCD;
+}
+#pageWrapper #layoutMain #navMenu UL.links LI.menu-1-5-2 {
+  background-color: #B6E7FA;
+}
+#pageWrapper #layoutMain #navMenu UL.links LI A {
+  color: #000000;
+  display: block;
+  text-decoration: none;
+  width: 80px;
+}
+
+
+/** Tabs **/
+UL.tabs.primary,
+UL.tabs.secondary {
+  border: 0px;
+  clear: both;
+  margin: 0px;
+  padding: 0px;
+}
+UL.tabs.primary LI,
+UL.tabs.secondary LI {
+  border-width: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+UL.tabs.primary LI A,
+UL.tabs.secondary LI A {
+  background-color: #333333;
+  background-image: url('../images/spriteMap0.png');
+  background-position: 0px -54px;
+  border: 0px;
+  color: #FFFFFF;
+  display: block;
+  float: left;
+  height: 15px;
+  padding: 1px 10px 0px;
+  position: relative;
+  margin-bottom: 10px;
+}
+UL.tabs.primary LI A.active,
+UL.tabs.secondary LI A.active {
+  background-color: #FFFFFF;
+  border-width: 0px;
+  color: #000000;
+  cursor: default;
+}
+UL.tabs.primary LI A SPAN,
+UL.tabs.secondary LI A SPAN {
+  background-image: url('../images/spriteMap0.png');
+  background-position: -192px -54px;
+  display: block;
+  height: 16px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 8px;
+}
+
+
+/** Node & Teasers **/
+.node .content .screenshots {
+  float: right;
+  margin-left: 20px;
+}
+.node .content .screenshots IMG {
+  border: 1px solid #252525;
+  padding: 5px;
+  margin: 0px 0px 10px 5px;
+}
+.node .content .description {
+  margin: 25px 0px;
+  line-height: 15px;
+  text-align: justify;
+}
+.node .content .details IMG {
+  margin: 10px 0px 0px;
+}
+.node .linksContainer {
+  background: #E5E5E5;
+  clear: both;
+  margin-top: 10px;
+  padding: 4px;
+  position: relative;
+}
+.node .linksContainer A {
+  color: #000000;
+}
+.node .linksContainer .taxonomy {
+  margin-top: 5px;
+}
+.node .linksContainer .taxonomy IMG {
+  vertical-align: middle;
+}
+.node .linksContainer .taxonomy UL.links LI {
+  padding: 0px 2px 0px 0px;
+}
+
+.node.teaser {
+  clear: both;
+  margin-bottom: 25px;
+}
+.node.teaser .title {
+  margin-bottom: 10px;
+}
+.node.teaser .title A {
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.node.teaser .content .text {
+  margin-left: 48px;
+}
+.node.teaser .content .text P {
+  margin-top: 0px;
+}
+.node.teaser .content .date {
+  float: left;
+}
+
+
+/** Corners **/
+.corners .corner {
+  background-image: url('../images/spriteMap0.png');
+  background-repeat: no-repeat;
+  height: 8px;
+  position: absolute;
+  width: 8px;
+}
+.corners .corner.bottom {
+  bottom: 0px;
+}
+.corners .corner.left {
+  left: 0px;
+}
+.corners .corner.right {
+  right: 0px;
+}
+.corners .corner.top {
+  top: 0px;
+}
+
+/* Grey */
+.corners .corner.grey.bottom.left {
+  background-position: -0px -46px;
+}
+.corners .corner.grey.bottom.right {
+  background-position: -8px -46px;
+}
+.corners .corner.grey.top.left {
+  background-position: -0px -38px;
+}
+.corners .corner.grey.top.right {
+  background-position: -8px -38px;
+}
+
+/* White */
+.corners .corner.white.bottom.left {
+  background-position: -16px -46px;
+}
+.corners .corner.white.bottom.right {
+  background-position: -24px -46px;
+}
+.corners .corner.white.top.left {
+  background-position: -16px -38px;
+}
+.corners .corner.white.top.right {
+  background-position: -24px -38px;
+}
+
+/* Outlined */
+.corners .corner.line.bottom.left {
+  background-position: -0px -62px;
+  bottom: -1px;
+  left: -1px;
+}
+.corners .corner.line.bottom.right {
+  background-position: -192px -62px;
+  bottom: -1px;
+  right: -1px;
+}
+.corners .corner.line.top.left {
+  background-position: -0px -54px;
+  left: -1px;
+  top: -1px;
+}
+.corners .corner.line.top.right {
+  background-position: -192px -54px;
+  right: -1px;
+  top: -1px;
+}
+
+
+/** Date Style **/
+.date {
+  background: #F26522;
+  color: #FFFFFF;
+  height: 38px;
+  text-align: center;
+  position: relative;
+  width: 38px;
+}
+.date .day {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+.date .month {
+  display: block;
+  font-weight: bold;
+}
+
+
+/** Block Style **/
+.block H2.title {
+  background-color: #252525;
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 2px 5px;
+  position: relative;
+}
+
+#regionsSidebar .block {
+  margin-bottom: 10px;
+}
+#regionsSidebar .block .content A {
+  color: #252525;
+}
+
+
+/** Skins **/
+.node.teaser .content .text IMG {
+  border: 1px solid #000000;
+  float: right;
+  margin: 0px 0px 10px 10px;
+}
+
+#regionContentBottomLeft .block H2.title,
+#regionContentBottomMiddle .block H2.title,
+#regionContentBottomRight .block H2.title {
+  display: none;
+}
+#regionContentBottomLeft .block .content H3,
+#regionContentBottomMiddle .block .content H3,
+#regionContentBottomRight .block .content H3 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+#regionContentBottomLeft .block .content IMG,
+#regionContentBottomMiddle .block .content IMG,
+#regionContentBottomRight .block .content IMG {
+  border: 1px solid #252525;
+}
+
+
+/** Comments **/
+#regionMain #comments {
+  margin-top: 10px;
+}
+#comment-form FIELDSET {
+  display: none;
+}
+#comment-form FIELDSET.captcha {
+  display: block;
+}
+#comment-form #commentFormWrapper {
+  background: #252525;
+  padding: 10px;
+  position: relative;
+}
+#comment-form #commentFormWrapper LABEL {
+  color: #FFFFFF;
+}
+#comment-form #commentFormWrapper INPUT.form-text {
+  width: 482px;
+}
+#comment-form #commentFormWrapper TEXTAREA {
+  width: 642px;
+}
+#comment-form #commentFormWrapper .preview {
+  display: none;
+}
+#comment-form #commentFormWrapper .resizable-textarea .grippie {
+  display: none !important;
+}
+.comment {
+  margin-bottom: 20px;
+}
+.comment .body {
+  border: 1px solid #252525;
+  padding: 10px;
+  margin: 0px;
+  position: relative;
+}
+.comment .body .bit {
+  background: url('../images/spriteMap0.png') no-repeat -80px 0px;
+  bottom: -21px;
+  height: 21px;
+  left: 20px;
+  position: absolute;
+  width: 19px;
+}
+.comment .credit {
+  margin: 6px 0px 0px 43px;
+}
+.comment .body .links {
+  float: right;
+  margin: 0px;
+  padding: 0px 10px 0px 0px;
+}
+
+
+/** Share Widget **/
+DIV.share_popup {
+  border-color: #252525 !important;
+  margin: 10px 0px;
+  position: relative !important;
+  width: 654px !important;
+}
+DIV.share_popup UL.share_links LI {
+  width: 150px !important;
+}
+DIV.share_popup UL.share_links LI A {
+  text-decoration: none;
+}
+DIV.share_popup UL.share_popup_menu {
+  background: #252525;
+}
+
+
+/** Copyright **/
+#pageWrapper #layoutMain #layoutContent #layoutCopyright {
+  color: #000000;
+  margin: 0px 10px;
+  padding: 0px 0px 10px;
+}
+#pageWrapper #layoutMain #layoutContent #layoutCopyright A {
+  color: #000000;
+  text-decoration: none;
+}
+#pageWrapper #layoutMain #layoutContent #layoutCopyright .rss {
+  float: left;
+}
+#pageWrapper #layoutMain #layoutContent #layoutCopyright .rss IMG {
+  padding-right: 5px;
+  vertical-align: text-top;
+}
+#pageWrapper #layoutMain #layoutContent #layoutCopyright .text {
+  float: right;
+}
